@@ -1,4 +1,10 @@
 //Quick-sort Algorithim
+/*
+Best Time Complexity -> k = log2n || (log(base 2)  n)
+Worst time complexity -> n(n+1)/2  -> O(n^2)
+
+Developed by Tony Hoare in 1959 and published in 1961.
+*/
 // Black and Blue are two identifier acting as a pointer for the array.
 #include<bits/stdc++.h>
 using namespace std;
@@ -53,7 +59,3 @@ int main()
 }
 
 
-/*
-Best Time Complexity -> k = log2n || (log(base 2)  n)
-Worst time complexity -> n(n+1)/2  -> O(n^2)
-*/
